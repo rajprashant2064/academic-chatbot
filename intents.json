@@ -1,0 +1,59 @@
+{
+  "intents": [
+    {
+      "tag": "dbms_definition",
+      "patterns": ["what is dbms", "define dbms", "explain dbms", "dbms meaning", "dbms introduction"],
+      "responses": ["DBMS stands for Database Management System. It is software that stores and manages data efficiently using tables and relationships between them."]
+    },
+    {
+      "tag": "dbms_functions",
+      "patterns": ["functions of dbms", "features of dbms", "uses of dbms", "roles of dbms"],
+      "responses": ["Functions of DBMS include data storage, retrieval, manipulation, data security, concurrency control, and recovery from failures."]
+    },
+    {
+      "tag": "dbms_models",
+      "patterns": ["data models in dbms", "types of dbms models", "dbms models list"],
+      "responses": ["The main data models in DBMS are hierarchical, network, relational, and object-oriented models."]
+    },
+    {
+      "tag": "os_definition",
+      "patterns": ["what is os", "define operating system", "explain os", "what is operating system"],
+      "responses": ["An Operating System (OS) is system software that manages computer hardware and software resources and provides services to programs."]
+    },
+    {
+      "tag": "os_deadlock",
+      "patterns": ["what is deadlock", "explain deadlock", "deadlock condition", "deadlock example"],
+      "responses": ["A deadlock is a situation in which two or more processes are waiting for each other indefinitely to release resources."]
+    },
+    {
+      "tag": "os_thread",
+      "patterns": ["what is thread", "define thread", "thread in os", "types of threads"],
+      "responses": ["A thread is the smallest unit of CPU execution. It shares the same resources like memory with other threads in a process."]
+    },
+    {
+      "tag": "dsa_definition",
+      "patterns": ["what is dsa", "define data structure", "explain dsa", "what is data structure"],
+      "responses": ["Data Structures and Algorithms (DSA) are used to organize data efficiently and solve problems effectively using logic and computation."]
+    },
+    {
+      "tag": "cn_definition",
+      "patterns": ["what is computer network", "define cn", "explain networking", "what is networking"],
+      "responses": ["A Computer Network is a collection of interconnected devices that communicate and share data through transmission media."]
+    },
+    {
+      "tag": "oop_definition",
+      "patterns": ["what is oop", "define object oriented programming", "oop meaning", "oop concept"],
+      "responses": ["Object-Oriented Programming (OOP) organizes code into objects which combine data and methods for better modularity and reuse."]
+    },
+    {
+      "tag": "ai_definition",
+      "patterns": ["what is ai", "define artificial intelligence", "ai meaning", "ai introduction"],
+      "responses": ["Artificial Intelligence (AI) is the simulation of human intelligence by machines that can learn, reason, and make decisions."]
+    },
+    {
+      "tag": "ca_definition",
+      "patterns": ["what is computer architecture", "define ca", "explain computer architecture"],
+      "responses": ["Computer Architecture defines how the components of a computer system are organized and interact, including CPU design, memory, and buses."]
+    }
+  ]
+}
